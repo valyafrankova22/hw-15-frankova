@@ -16,7 +16,7 @@
     }
 
     h4 {
-      @include text(18px, 21px, $h-colors, normal);
+      @include text(18px, 21px, $h-colors, 700);
     }
 
     p {

@@ -1,0 +1,43 @@
+.team-member {
+  padding-top: $banner-top-offset;
+
+  .member-item_1 {
+    text-align: center;
+  }
+
+  .member-item_2 {
+
+    h3 {
+      @include text(42px, 50px, $dominant-color, bold);
+      padding-bottom: 15px;
+    }
+    .link {
+      padding-bottom: 10px;
+      border-bottom: 4px solid $border-color;
+      margin-bottom: 10px;
+
+      p {
+        @include text(16px, 22px, $slide-text-color, normal);
+      }
+      a {
+        @include text(16px, 19px, $dominant-blue-color, normal);
+        padding-left: 15px;
+      }
+    }
+
+    .subscribe {
+      p {
+        @include text(18px, 26px, $p-color, normal);
+        padding-bottom: 10px;
+      }
+      h4 {
+        @include text(14px, 17px, $h-colors, bold);
+        @extend %t-transform;
+        letter-spacing: 1px;
+      }
+    }
+
+  }
+
+
+}

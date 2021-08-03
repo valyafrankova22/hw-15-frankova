@@ -1,0 +1,21 @@
+@media (max-width: 992px) {
+
+  .team {
+    h2 {
+      margin-left: 0;
+    }
+
+    .team-item {
+      flex-direction: row;
+      align-items: center;
+
+      .team-name {
+        flex-direction: column;
+        padding-left: 30px;
+      }
+    }
+
+
+  }
+
+}
