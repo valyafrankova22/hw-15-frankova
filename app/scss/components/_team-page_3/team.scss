@@ -1,0 +1,26 @@
+.team {
+  padding-top: $banner-top-offset;
+
+  h2 {
+    @include text(42px, 50px, $dominant-color, bold);
+    max-width: 900px;
+    margin-left: 240px;
+    margin-bottom: 60px;
+  }
+
+  .team-item {
+    flex-direction: column;
+
+    img {
+      padding-bottom: 15px;
+    }
+
+    h4 {
+      @include text(18px, 21px, $h-colors, normal);
+    }
+
+    p {
+      @include text(16px, 22px, $slide-text-color, normal);
+    }
+  }
+}
