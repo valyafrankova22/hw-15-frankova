@@ -1,0 +1,15 @@
+.banner {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  height: 800px;
+  padding-top: 300px;
+  margin-bottom: 100px;
+  margin-top: -100px;
+}
+.banner .row {
+  text-align: center;
+}
+.banner .row .logo-img {
+  background-image: url("../images/Frame_2(1).scg");
+}
+
+/*# sourceMappingURL=index.css.map */

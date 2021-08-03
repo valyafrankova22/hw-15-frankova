@@ -1,0 +1,13 @@
+.our-info {
+  margin-bottom: 70px;
+
+  p {
+    @include text(21px, 30px, $p-color, 500);
+    padding-right: 30px;
+  }
+
+  h3 {
+    @include text(42px, 50px, $dominant-color, bold);
+    max-width: 450px;
+  }
+}

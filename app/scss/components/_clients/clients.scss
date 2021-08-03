@@ -1,0 +1,29 @@
+.clients {
+
+  h3 {
+    @include text(16px, 17px, $h-colors, bolder);
+    @extend %t-transform;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+      .logo-clients {
+
+        .clients-item {
+          display: flex;
+          height: 120px;
+          align-items: center;
+          justify-content: center;
+
+
+          @for $i from 1 through 12 {
+            &:nth-child(#{$i}) {
+              background-color: nth($clients-bg, $i);
+            }
+          }
+        }
+
+      }
+
+}

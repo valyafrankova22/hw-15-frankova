@@ -1,0 +1,8 @@
+header .navbar-brand img {
+  color: white;
+}
+header .navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=header.css.map */

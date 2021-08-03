@@ -1,0 +1,45 @@
+.big-wrapper {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0 0 30px 30px;
+}
+
+.banner {
+  padding-top: $banner-top-offset;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+
+  .center-content {
+    margin-top: -45px;
+    position: relative;
+
+    &:before,
+    &:after {
+      position: absolute;
+      display: inline-block;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 600px;
+      width: 100%;
+
+    }
+
+    &:before {
+      content: url("../images/Symbol-Long-leg.svg");
+    }
+    &:after {
+      content: url("../images/Frame_2(1).svg")
+    }
+
+    p {
+      @include text(38px, 45px, $main-text-color, normal);
+      text-align: center;
+      max-width: 500px;
+      margin: 0 auto;
+      position: relative;
+    }
+  }
+
+}

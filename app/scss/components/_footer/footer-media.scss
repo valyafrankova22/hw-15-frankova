@@ -1,0 +1,41 @@
+@media (max-width: 576px) {
+
+  footer {
+    .footer-item {
+      text-align: center;
+
+      .f-address {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .f-contact {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 992px) {
+
+  footer {
+      .footer-item {
+        text-align: center;
+
+        .f-address {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .f-contact {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+
+  }
+

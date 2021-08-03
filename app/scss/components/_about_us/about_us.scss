@@ -1,0 +1,38 @@
+.about_us {
+  padding-top: $banner-top-offset;
+  margin-bottom: 100px;
+
+  .about-us-item1 {
+    padding-right: 20px;
+
+    h2 {
+      @include text(42px, 50px, $dominant-color, bold);
+      padding-bottom: 20px;
+    }
+
+    p {
+      @include text(21px, 30px, $p-color, 500);
+      padding-bottom: 15px;
+    }
+  }
+
+  .about-us-item2 {
+
+    .sm-item {
+      padding-left: 20px;
+      border-left: 4px solid $border-color;
+      padding-bottom: 10px;
+
+          h3 {
+            @include text(36px, 42px, $dominant-color, bold);
+            text-align: center;
+            padding-left: 10px;
+          }
+          p {
+            @include text(18px, 21px, $h-colors, 400);
+              padding-bottom: 15px;
+          }
+      }
+
+  }
+}

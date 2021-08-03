@@ -1,0 +1,62 @@
+footer {
+  background-color: $block-bg-color;
+  padding-top: 32px;
+  padding-bottom: 40px;
+
+  .footer-row {
+    padding-top: 15px;
+    border-top: 5px solid #E6E6F0;
+  }
+
+  .f-address {
+    display: flex;
+    align-items: start;
+
+    p {
+      @include text(16px, 19px, $h-colors, normal);
+      padding-right: 10px;
+    }
+
+    a {
+      @include text(12px, 14px, $dominant-blue-color, bold);
+      letter-spacing: 1px;
+      @extend %t-transform;
+
+      &:before, {
+        content: '•';
+        color: $slide-text-color;
+        font-size: 20px;
+        padding-right: 10px;
+      }
+    }
+  }
+
+  .f-contact {
+
+    .phone {
+      @include text(16px, 19px, #46466E, bold);
+
+      &:before,
+      &:after {
+        content: '•';
+        color: $slide-text-color;
+        font-size: 20px;
+        padding: 0 10px;
+      }
+    }
+
+    .mail {
+      @include text(16px, 19px, $dominant-blue-color, bold);
+    }
+  }
+
+
+  .item-2 {
+    text-align: end;
+
+    .right {
+      @include text(16px, 19px, $slide-text-color, normal);
+    }
+  }
+
+}

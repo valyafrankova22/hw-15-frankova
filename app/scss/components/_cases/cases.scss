@@ -1,0 +1,40 @@
+.cases {
+  margin: 100px 0 60px;
+
+
+  .cases-bg {
+    background-color: #F5F5FA;
+    border-radius: 12px;
+  }
+
+  .cases-item {
+      border: 2px solid white;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+        .cases-h {
+          border-bottom: 4px solid white;
+          width: 100%;
+          padding: 20px 20px 10px;
+
+            h3 {
+              @include text(14px, 17px, $dominant-color, bold);
+              letter-spacing: 1px;
+              @extend %t-transform;
+            }
+        }
+
+        .cases-description {
+          @include text(24px, 28px, #686887, 600);
+          padding-bottom: 20px;
+          padding-top: 48px;
+          padding-left: 10px;
+        }
+
+        .cases-client {
+          @include text(18px, 26px, $slide-text-color, normal);
+          padding-left: 10px;
+        }
+  }
+}
