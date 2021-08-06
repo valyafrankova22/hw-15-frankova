@@ -1,0 +1,114 @@
+.contact-form {
+  padding-top: $banner-top-offset;
+  padding-bottom: 80px;
+
+  .item_1 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .form-address {
+    p {
+      @include text(21px, 30px, $h-colors, normal);
+    }
+
+    .f-tel {
+      @include text(21px, 30px, $h-colors, normal);
+      display: block;
+      padding-bottom: 15px;
+    }
+
+    .f-mail {
+      @include text(21px, 30px, $dominant-blue-color, normal);
+      display: block;
+      }
+    }
+
+    .form-border {
+      border-top: 4px solid $border-color;
+      border-bottom: 4px solid $border-color;
+      padding: 20px 0;
+      margin: 15px 0;
+    }
+      .form-link {
+        a {
+          @include text(12px, 16px, $dominant-blue-color, bold);
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+  }
+
+  .item_2 {
+    height: 576px;
+    background-color: $block-bg-color;
+    max-width: 527px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+    h3 {
+      @include text(32px, 38px, $dominant-color, bold);
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    p {
+      @include text(14px, 17px, $slide-text-color, 600);
+      @extend %t-transform;
+      letter-spacing: 1px;
+    }
+
+    label {
+      display: block;
+
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        width: 100%;
+        padding: 10px 10px 120px 10px;
+        margin-bottom: 10px;
+      }
+
+      input,
+      textarea {
+        border: none;
+        border-radius: 8px;
+        color: $slide-text-color;
+      }
+    }
+
+    .form-btn {
+      text-align: center;
+
+      button {
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 550;
+        cursor: pointer;
+        outline: none;
+        background: #24A3FF;
+        box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+        border-radius: 12px;
+        border: none;
+        color: $main-text-color;
+        padding: 13px 50px;
+      }
+
+    }
+  }
+
+}
+
+.maps {
+  .my-map {
+    iframe {
+      width: 100%;
+    }
+  }
+}

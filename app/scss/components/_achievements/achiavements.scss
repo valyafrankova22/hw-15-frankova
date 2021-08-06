@@ -9,19 +9,26 @@
     text-align: center;
     letter-spacing: 1px;
     padding-top: 25px;
+    margin-bottom: 50px;
   }
+  .ach-carousel {
+    padding-bottom: 50px;
 
-  .ach-row {
-    padding-top: 55px;
-    box-sizing: border-box;
-  }
+      .ach-btn {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: $dominant-blue-color;
+        margin-bottom: -25px;
+      }
 
-  .achievements-item {
-    height: 110px;
-    background-color: white;
-    width: 22%;
-    border-radius: 10px;
+      .achievements-item {
+        height: 110px;
+        background-color: white;
+        border-radius: 10px;
+        width: 22%;
+      }
+   }
 
-  }
 
 }

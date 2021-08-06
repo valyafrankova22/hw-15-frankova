@@ -6,6 +6,20 @@
     .social {
       display: none;
     }
+
+    .navbar-brand {
+      margin-top: 40px;
+    }
+
+    .header-address {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .navbar-nav {
+      background-color: mintcream;
+    }
   }
 
 }
